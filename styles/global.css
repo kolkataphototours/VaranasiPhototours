@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'Stegal';
+  src: url('/fonts/Stegal-Re.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Sang';
+  src: url('/fonts/SangBleuKingdom-Regular.otf') format('opentype');
+}
+
+
+.font-ste{
+   font-family: 'Stegal',sans-serif;
+}
+
+.font-sang{
+  font-family: 'Sang',sans-serif;
+}
+
+.card-list {
+  display: none;
+  column-count: 2;
+  /* margin: 80px; */
+}
+.card {
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.card-image {
+  flex: 100%;
+  border-radius: 10px;
+  min-height: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border : 2px solid white;
+  object-fit: cover;
+}
+
+.image-gallery-desktop{
+  display: block;
+}
+
+@media only screen and (max-width: 700px) {
+    .card-list {
+        column-count: 1;
+        /* margin : 15px; */
+        display: block;
+    }
+    .image-gallery-desktop{
+      display: none;
+    }
+}
+
+
+/* tessting */
+
