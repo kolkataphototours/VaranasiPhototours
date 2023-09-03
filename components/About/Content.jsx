@@ -58,9 +58,7 @@ const Content = () => {
           <div className="h-80 lg:h-full w-max lg:w-11/12 relative">
             <Image className="h-80 lg:h-full w-screen object-cover" src={shivamPic} alt="pic" />
             <div className="absolute bottom-0 left-0 w-full h-20 bg-black bg-opacity-50 flex items-center justify-around">
-              <Link href={shivamLink.Facebook} target="_blank">
-                <i className="fa fa-facebook icon text-white text-2xl hover:text-[#1877F2]" />
-              </Link>
+
               <Link href={shivamLink.Website} target="_blank">
                 <i className="fa fa-whatsapp icon text-white text-2xl hover:text-[#25D366]" />
               </Link>
@@ -84,7 +82,7 @@ const Content = () => {
               discouraged pursuing one's passion as a viable option for a flourishing future, Shivam chose to
               follow his instincts and pursue his ardour for photography. Although he didn't have any formal
               education in photography, he was fortunate to work with some of the industry's finest
-              professionals, which honed his abilities and refined his artistic perspective
+              professionals, which honed his abilities and refined his artistic perspective.
               <br />
               <br />
               With a natural talent for narration and a profound affection for capturing genuine moments,
@@ -100,27 +98,31 @@ const Content = () => {
 
           <div className='col-span-2 m-2 lg:m-8  tracking-wide '>
             <h1 className='text-center text-3xl font-semibold mt-4 font-sang '>Meet Shubham Pandey </h1>
-            <p className='m-3 text-left md:p-4 font-sang text-base md:text-xl'>Introducing Shubham Pandey, a dynamic and gifted young communicator,
-              and aspiring documentary filmmaker renowned for his ability to connect
-              with individuals from different nationalities and make their Indian
-              experience a memorable one. Shubham's love for visual storytelling is
-              boundless, and he exhibits exceptional creativity in content curation and his
+            <p className='m-3 text-left md:p-4 font-sang text-base md:text-xl'>
+              Introducing Shubham Pandey, a dynamic and gifted young
+              communicator, and aspiring documentary filmmaker known for
+              his ability to connect with individuals from different nationalities
+              and make their India experience a memorable one. Shubham's
+              love for visual storytelling is boundless, and he exhibits
+              exceptional creativity in content curation, film editing and his
               passion for documenting stories has a long track. As a seasoned
-              photography tour guide and Filming fixer since the inception of our first
-              company, he possesses the skills and expertise necessary to guide visitors
-              from every corner of the world. Shubham has collaborated and worked with
-              numerous global brands dedicating himself to his passion for promoting fair
-              trade organisations and NGOs from all around the world. With his
-              distinctive perspective and sharp attention to detail, Shubham is certain
-              that he will make you capture the essence of any subject and tell its story
-              through the lens of your camera.</p>
+              photography tour guide and Filming fixer since the inception of
+              our first company, he possesses the skills and expertise
+              necessary to guide visitors from every corner of the world.
+              <br />
+              <br />
+              Shubham has collaborated and worked with numerous global
+              brands dedicating himself to his passion for promoting fair trade
+              organisations and NGOs from all around the world. With his
+              distinctive perspective and sharp attention to detail, he will
+              certainly make you capture the essence of any subject and tell
+              its story through the lens of your camera.
+
+            </p>
           </div>
           <div className="h-80 lg:h-full w-max lg:w-11/12 relative">
             <Image className="h-80 lg:h-full w-screen object-cover" src={shubhamPic} alt="pic" />
             <div className="absolute bottom-0 left-0 w-full h-20 bg-black bg-opacity-50 flex items-center justify-around">
-              <Link href={shubhamLink.Facebook} target="_blank">
-                <i className="fa fa-facebook icon text-white text-2xl hover:text-[#1877F2]" />
-              </Link>
               <Link href={shubhamLink.Website} target="_blank">
                 <i className="fa fa-whatsapp icon text-white text-2xl hover:text-[#25D366]" />
               </Link>
@@ -145,7 +147,7 @@ const Content = () => {
 
 
           <div className='w-11/12'>
-            <iframe className="w-full h-56 md:h-80 rounded-lg"  src={`${youtube1.url}?rel=0`} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe className="w-full h-56 md:h-80 rounded-lg" src={`${youtube1.url}?rel=0`} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
           <div className='w-11/12'>
             <iframe className="w-full h-56 md:h-80 rounded-lg" src={`${youtube2.url}?rel=0`} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
