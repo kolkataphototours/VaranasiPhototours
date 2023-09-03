@@ -123,7 +123,7 @@ const Content = () => {
           <div className="h-80 lg:h-full w-max lg:w-11/12 relative">
             <Image className="h-80 lg:h-full w-screen object-cover" src={shubhamPic} alt="pic" />
             <div className="absolute bottom-0 left-0 w-full h-20 bg-black bg-opacity-50 flex items-center justify-around">
-              <Link href={shubhamLink.Website} target="_blank">
+              <Link href={shubhamLink.Website}  target="_blank">
                 <i className="fa fa-whatsapp icon text-white text-2xl hover:text-[#25D366]" />
               </Link>
               <Link href={shubhamLink.Behance} target="_blank">
